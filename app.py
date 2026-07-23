@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load("diabetes_knn_model.pkl")
+model = joblib.load("diabetes_model.pkl")
 
 # Prediction function
 def predict_diabetes(
